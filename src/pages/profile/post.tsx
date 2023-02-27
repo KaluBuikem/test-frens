@@ -27,7 +27,7 @@ function Post() {
                     </div>
                 </section>
                 <section className='px-6 mt-3 w-full'>
-                    <textarea className='py-2 px-3 outline-none focus:border-blue-500 focus:border-2 w-full font-sans rounded-md shadow-sm border' placeholder="What's on your mind?" value={text} onChange={(e) => setText(e.target.value)} autoComplete='off' autoCorrect='off' cols="30" rows="10" style={{ resize: 'none' }}></textarea>
+                    <textarea className='py-2 px-3 outline-none focus:border-blue-500 focus:border-2 w-full font-sans rounded-md shadow-sm border' placeholder="What's on your mind?" value={text} onChange={(e) => setText(e.target.value)} autoComplete='off' autoCorrect='off' cols={30} rows={10} style={{ resize: 'none' }}></textarea>
                 </section>
                 <section>
                     <div className='px-6 py-1 flex justify-between'>

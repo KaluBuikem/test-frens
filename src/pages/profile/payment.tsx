@@ -30,7 +30,7 @@ function Payment() {
             <div>
                 <div className='relative'>
                     <img src={picture} alt='Profile Picture' className='w-40 h-40' />
-                    <div style={overlayStyle}></div>
+                    {/* <div style={overlayStyle}></div> */}
                 </div>
                 <h3 className='text-lg font-sans font-medium mt-2'>Welcome, <strong className='bg-gray-200 p-[2px] rounded-md'>{name}</strong></h3>
             </div>
